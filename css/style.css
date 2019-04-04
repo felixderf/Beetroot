@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: "Arial";
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 60px;
+    background: linear-gradient(to top right, #ff512f, #dd2476) no-repeat center / cover;
+      
+}
+
+.g-text {
+    font-size: 13px;
+    font-family: "Arial";
+    font-weight: 400;
+    line-height: 1.538;
+    text-align: left;
+    color: #7a7b7f;   
+}
+
+.g-text a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Arial";
+    font-weight: 400;
+    line-height: 1.538;
+    text-align: left;
+    color: #ea355a;   
+}
+
+.form {
+    width: 460px;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+}
+
+.form--center {
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo__box {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+}
+/* End Logo */
+
+/* Form Header */
+.form__header {
+    margin-bottom: 35px;
+}
+
+.form__title {
+    padding-left: 34px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "Arial";
+    color: #1b1c1d;
+    font-weight: 700;
+    line-height: 0.833;
+    text-align: left;
+}
+
+.header__text--width {
+    width: 98%;
+}
+/* End Form Header */
+
+/* Form Item */
+.form__item {
+    margin-bottom: 15px;
+}
+
+.form__item--btn {
+    margin-bottom: 24px;
+}
+
+.form__user-name-item {
+    display: inline-block;
+    width: 48%;
+}
+
+.form__user-name-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.form__field {
+    font-size: 14px;
+    font-family: "Arial";
+    padding: 13px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #7a7b7f;
+}
+
+.form__field--full {
+    width: 100%;
+}
+
+.form__btn {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 17px 134px;
+    color: #fff;
+    background-color: #ea355a;
+    border: 0;
+    border-bottom: 3px solid #bd1962;
+    border-radius: 4px;
+}
+/* End Form Item */
+
+/* Form Footer */
+.form__footer {
+    margin-bottom: 32px;
+}
+
+.footer__text--size {
+    font-size: 12px;
+}
+/* End Form Footer */
